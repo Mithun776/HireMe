@@ -1,3 +1,4 @@
+import os
 from flask import Flask, jsonify, redirect, render_template, request, session, url_for
 from database import init_db
 from pythonfiles.report import generate_report
@@ -215,4 +216,5 @@ def api_report_data():
 # ++++++++++++++++++++++++++++++++++++++ END OF REPORT PAGE +++++++++++++++++++++++++++++++
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
