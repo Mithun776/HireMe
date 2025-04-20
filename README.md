@@ -76,6 +76,6 @@ HireMe is a full-stack project that mimics a real-world job portal. It gives bot
 
 ---
 
-⭐ Like This Project?
-Give it a ⭐ on GitHub — it really helps and means a lot!
-Thank you for checking out HireMe!
+## ⭐ Like This Project?
+- Give it a ⭐ on GitHub — it really helps and means a lot!
+- Thank you for checking out HireMe!
